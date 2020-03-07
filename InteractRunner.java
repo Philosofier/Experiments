@@ -18,6 +18,7 @@ calc.cleanResult();
 System.out.println("Exit : yes/no ");
 exit = reader.next();
 }
+
 }finally{
 reader.close();}
 }

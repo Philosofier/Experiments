@@ -1,3 +1,4 @@
+package calculator;
 public class Calculator {
 
 private int result;
@@ -7,6 +8,13 @@ for (Integer param : params) {
 this.result += param;
 }
 }
+public void minus (int ... params){
+for (Integer param : params)
+{
+this.result -= param;
+}
+}
+
 public int getResult() {
 
 return this.result;
